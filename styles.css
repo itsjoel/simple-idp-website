@@ -1,0 +1,89 @@
+
+.title {
+    font-family: sans-serif;
+    display: inline-block;
+    text-align: left;
+}
+
+.nav-bar {
+    width: 101%;
+    border: 1px solid black;
+    margin-top: -10px;
+    margin-left: -10px;
+    padding-left: 10px;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+    margin: auto;
+    margin-right: 50px;
+    margin-top: 50px;
+    
+}
+
+.nav-list > a {
+    float: left;
+    border: 1px dotted black;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    
+}
+
+body {
+    font-family: sans-serif;
+}
+
+p.welcome {
+    font-size: 2em;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.
+.content {
+    width: 70em;
+}
+.topic-sec {
+    width: 101%;
+    margin-left: -1%;
+    padding-left: 1%;
+}
+
+.content {
+    max-width: 70em;
+    margin: auto;
+    padding:10px
+    
+}
+
+#mental {
+    background-color: darkblue;
+    color: white;
+}
+
+#physical {
+    background-color: darkred;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#societal {
+    background-color: black;
+    color: white;
+}
+
+#medical {
+    background-color: darkolivegreen;
+    color: white;
+}
