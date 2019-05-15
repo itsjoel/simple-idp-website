@@ -11,6 +11,9 @@
     margin-top: -10px;
     margin-left: -10px;
     padding-left: 10px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
 }
 
 .nav-list {
