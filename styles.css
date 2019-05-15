@@ -24,7 +24,7 @@
     
 }
 
-.nav-list > a {
+a.navbutton {
     float: left;
     border: 1px dotted black;
     margin: 10px;
@@ -32,7 +32,7 @@
     display: block;
     text-decoration: none;
     color: black;
-    
+    transition: color 0.25s, background-color 0.25s;
 }
 
 body {
@@ -86,4 +86,10 @@ html {
 #medical {
     background-color: darkolivegreen;
     color: white;
+}
+
+a.navbutton:hover {
+    background-color: black;
+    color: white;
+    
 }
